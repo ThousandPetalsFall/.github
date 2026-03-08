@@ -2,63 +2,32 @@
 
 > 每一片花瓣都能绽放光彩
 
-我们是一个专注于小工具和小程序开发的组织相信小而美的产品也能温暖人心。
-
-## 🎯 我们的使命
-
-- 打造实用、有趣的小程序
-- 探索新技术，创造价值
-- 让每一份创意都能绽放
+我们是一个专注于小工具和小程序开发的组织，相信小而美的产品也能温暖人心。
 
 ## 📱 项目列表
 
-### 信仰生活
-| 项目 | 描述 |
-|------|------|
-| [cyrus-jesus](https://github.com/ThousandPetalsFall/cyrus-jesus) | 圣经经文祷告 AI |
-
-### 习惯养成
-| 项目 | 描述 |
-|------|------|
-| [daily-checkin](https://github.com/ThousandPetalsFall/daily-checkin) | 每日打卡习惯养成 |
-| [checkin-circle](https://github.com/ThousandPetalsFall/checkin-circle) | 打卡圈 - 习惯养成社区 |
-| [today-plan](https://github.com/ThousandPetalsFall/today-plan) | 今日计划 |
-| [water-reminder](https://github.com/ThousandPetalsFall/water-reminder) | 喝水提醒 |
-
-### 旅行生活
-| 项目 | 描述 |
-|------|------|
-| [travel-footprint](https://github.com/ThousandPetalsFall/travel-footprint) | 旅行足迹 |
-| [packing-list](https://github.com/ThousandPetalsFall/packing-list) | 行李清单 |
-| [aa-accounting](https://github.com/ThousandPetalsFall/aa-accounting) | AA记账 |
-
-### 生活工具
-| 项目 | 描述 |
-|------|------|
-| [todo-list](https://github.com/ThousandPetalsFall/todo-list) | 待办清单 |
-| [book-notes](https://github.com/ThousandPetalsFall/book-notes) | 读书笔记 |
-| [mood-diary](https://github.com/ThousandPetalsFall/mood-diary) | 心情日记 |
-| [item-storage](https://github.com/ThousandPetalsFall/item-storage) | 物品收纳 |
-| [currency-exchange](https://github.com/ThousandPetalsFall/currency-exchange) | 汇率换算 |
-
-### 趣味娱乐
-| 项目 | 描述 |
-|------|------|
-| [draw-lots](https://github.com/ThousandPetalsFall/draw-lots) | 抽签助手 |
-| [tarot](https://github.com/ThousandPetalsFall/tarot) | 塔罗牌 |
-
-### 社交工具
-| 项目 | 描述 |
-|------|------|
-| [treehole](https://github.com/ThousandPetalsFall/treehole) | 匿名树洞 |
-| [photo-tools](https://github.com/ThousandPetalsFall/photo-tools) | 证件照工具 |
-| [astrology](https://github.com/ThousandPetalsFall/astrology) | 星座运势 MBTI |
-
-### 大型平台
-| 项目 | 描述 |
-|------|------|
-| [partnerhub](https://github.com/ThousandPetalsFall/partnerhub) | 脱单交友平台 |
-| [resource-hub](https://github.com/ThousandPetalsFall/resource-hub) | 资源共享平台 |
+| 项目名 | 前端实现 | 后端实现 | 项目描述 | 项目状态 |
+|--------|----------|----------|----------|----------|
+| partnerhub | uniapp+Vue3 | 支付宝云开发 | 找搭子小程序 - 脱单交友平台 | 审核中 |
+| cyrus-jesus | uniapp+Vue3 | FastAPI | 圣经经文祷告 AI | 未上线 |
+| daily-checkin | uniapp+Vue3 | FastAPI | 每日打卡习惯养成 | 未上线 |
+| photo-tools | uniapp+Vue3 | FastAPI | 证件照工具小程序 | 未上线 |
+| treehole | uniapp+Vue3 | FastAPI | 匿名树洞社交平台 | 未上线 |
+| astrology | uniapp+Vue3 | FastAPI | 星座运势 MBTI | 未上线 |
+| travel-footprint | uniapp+Vue3 | FastAPI | 旅行足迹小程序 | 未上线 |
+| water-reminder | uniapp+Vue3 | FastAPI | 喝水提醒小程序 | 未上线 |
+| aa-accounting | uniapp+Vue3 | FastAPI | AA记账小程序 | 未上线 |
+| checkin-circle | uniapp+Vue3 | FastAPI | 打卡圈 - 习惯养成社区 | 未上线 |
+| today-plan | uniapp+Vue3 | FastAPI | 今日计划小程序 | 未上线 |
+| mood-diary | uniapp+Vue3 | FastAPI | 心情日记小程序 | 未上线 |
+| packing-list | uniapp+Vue3 | FastAPI | 行李清单小程序 | 未上线 |
+| todo-list | uniapp+Vue3 | FastAPI | 待办清单小程序 | 未上线 |
+| currency-exchange | uniapp+Vue3 | FastAPI | 汇率换算小程序 | 未上线 |
+| draw-lots | uniapp+Vue3 | - | 抽签助手小程序 | 未上线 |
+| tarot | uniapp+Vue3 | FastAPI | 塔罗牌小程序 | 未上线 |
+| book-notes | uniapp+Vue3 | FastAPI | 读书笔记小程序 | 未上线 |
+| item-storage | uniapp+Vue3 | FastAPI | 物品收纳小程序 | 未上线 |
+| unified-backend | - | FastAPI | 统一后端 API 服务 | - |
 
 ## 🛠️ 技术栈
 
@@ -66,12 +35,6 @@
 - **后端**: FastAPI + Python
 - **数据库**: SQLite / MySQL
 - **AI**: MiniMax API
-
-## 📦 统一后端
-
-所有小程序项目共享同一个后端服务：
-
-- [unified-backend](https://github.com/ThousandPetalsFall/unified-backend) - 统一 API 服务
 
 ## 🤝 参与贡献
 
